@@ -150,7 +150,7 @@ img {
 
 i{
     text-align: center;
-    
+    font-size: 70px;
 }
 
 .laptop{
@@ -214,5 +214,10 @@ footer{
     #about{
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    i{
+        text-align: center;
+        font-size: 45px;
     }
 }
