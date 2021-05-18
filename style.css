@@ -38,14 +38,19 @@ header{
 .bg-image{
     background-image: url("./images/coffee-and-laptop.jpg");
   
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
   
     height: 100%; 
   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bg-image:hover{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 
@@ -57,10 +62,14 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 30%;
+    width: 40%;
     padding: 20px;
     text-align: center;
   }
+
+.bg-text:hover{
+    filter: blur(8px);
+}
 
 .bg-text h1{
     margin-top: 20px;
@@ -167,14 +176,27 @@ footer{
 }
 
 @media (max-width: 550px) {
+    header{
+        height: 60vh;
+        position: relative;
+    }
+
     .bg-text{
-        display: grid;
-        justify-content: center;
-        align-content: center;
+        position: absolute;
+    }
+
+    .bg-text h1{
+        font-size: 1.5em;
     }
 
     .bg-text h2{
         display: none;
+    }
+
+    img{
+        margin: 0 auto;
+        width: 100px;
+        height: auto;
     }
 
     #services{
