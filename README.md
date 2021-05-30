@@ -1,3 +1,3 @@
 # Static-Page-with-Blur
-Clone of static page with blur effect from Traversy Media's tutorial:
-https://codepen.io/bradtraversy/pen/jvKmjB
+Clone of static page with blur effect.
+Original Link: https://codepen.io/bradtraversy/pen/jvKmjB
